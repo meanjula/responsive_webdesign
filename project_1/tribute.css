@@ -1,0 +1,24 @@
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+   }
+  
+  #main {
+    background-color: Aqua;
+    text-align: center;
+  }
+  #title{
+    color: blue; 
+  }
+  ol {
+    list-style-type: square;
+    display: inline-block;
+  }
+  li{
+    text-align: left;
+  }
+  a: hover{
+    color:red;
+  }
