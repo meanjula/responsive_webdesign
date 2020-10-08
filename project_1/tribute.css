@@ -6,11 +6,11 @@
    }
   
   #main {
-    background-color: Aqua;
+    background-color:#cce6ff;
     text-align: center;
   }
   #title{
-    color: blue; 
+    color:#00284d; 
   }
   ol {
     list-style-type: square;
@@ -19,6 +19,14 @@
   li{
     text-align: left;
   }
+  a {
+    color:#03335a;
+  }
   a:hover {
     color:red;
+  }
+  #tribute-info > p{
+    margin: auto;
+    padding-bottom:15px;
+    
   }
