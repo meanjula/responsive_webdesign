@@ -1,3 +1,4 @@
+
 #image {
     max-width: 100%;
     height: auto;
@@ -7,17 +8,29 @@
   
   #main {
     background-color:#cce6ff;
-    text-align: center;
+    margin:auto;
+    text-align:center;
+    font-size:1.5vw;
+    width:100%;
+
+    
   }
   #title{
     color:#00284d; 
   }
   ol {
     list-style-type: square;
-    display: inline-block;
+    display:block;
+    margin-left: 25%;
+    padding:0px;
+    
+    
   }
   li{
+    display: list-item;
+    line-height: 1.5em;
     text-align: left;
+    justify-content: center;
   }
   a {
     color:#03335a;
@@ -26,7 +39,14 @@
     color:red;
   }
   #tribute-info > p{
-    margin: auto;
     padding-bottom:15px;
+    font-size: 1.5vw;
     
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5vw;
+    margin-left: 0px;
+    padding-bottom: 10px;
+
   }
