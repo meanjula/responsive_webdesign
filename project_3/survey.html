@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title"> Customer Feedback Survey Form</h1>
+    <p id="description">Thank you very much for your valuable time and effort for filling this form,<br/> which would be a great help to improve our services.
+    </p>
+    <div class="survey">
+      <form id="survey-form" action="https://cdpn.io/boomboom/v2/anjula.ghale@gmail.com">
+        <label id="name-label" for="name">Name</label><br>
+      <input id="name" type="text" placeholder="Your full name" name="name" required=""><br>
+      <label for="email" id="email-label">E-mail</label><br>
+      <input id="email" type="email" placeholder="Enter your email" name="email" required=""><br>
+      <label for="number" id="number-label">Age(optional)</label><br>
+         <input id="number" type="number" placeholder="Age" name="number" min="16" max="90">
+      <p>what is your current position?</p>
+      <select id="dropdown" name="position">
+        <option value="" disabled selected >select an option</option>
+        <option value="student">Student</option>
+        <option value="full time job">Full time job</option>          
+        <option value="full time learner">Full time learner</option>          
+        <option value="others">Others</option>   
+      </select>            
+      <p>Would you recommend our servics to your friends?</p>
+      <label for="definitely">                            <input id="definitely" type="radio" value="definitely" name="recommend">Definitely </label><br>
+      <label for="maybe">
+          <input id="maybe" type="radio" value="maybe" name="recommend">Maybe </label><br>
+      <label for="not sure">
+           <input id="not sure" type="radio" value="not sure" name="recommend">Not sure </label>
+      <p>What you want to see improved?</p>
+      <label for="front end-projects"><input id="front end-projects" type="checkbox" name="front end-projects" value="front end-projects">Front end-projects</label><br>
+      <label for="back end-projects"><input id="back end-projects" type="checkbox" name="back end-projects" value="back end-projects">Back end-projects</label><br>
+      <label for="data visualization"><input id="data visualization" type="checkbox" name="data visualization" value="data visualization">Data visualization</label><br>
+      <label for="challanges"><input id="challanges" type="checkbox" name="challanges" value="challanges">challanges</label><br>
+      <label for="open source community"><input id="open source community" type="checkbox" name="open source community" value="open source community">Open source community</label><br>
+        <label for="forum"><input id="forum" type="checkbox" name="forum" value="Forum">forum</label><br>
+        <label for="additional courses"><input id="additional courses" type="checkbox" name="additional courses" value="additional courses">Additional courses</label><br>
+        <p class="suggestions">Any comments or suggestions?</p>  
+      <textarea id="comments">additional comments</textarea><br>
+      <input id="submit" type="submit" value="submit">
+      
+  </form>    
+ </div>   
+</body>  
+</html>
+
+
+
+

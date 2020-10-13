@@ -1,0 +1,61 @@
+body{
+    background:#92f7f1;
+    font-size:1.5vw;
+    font-family:"Arial", "Helvetica", sans-serif;;
+    text-align:center;
+    width:100%;
+  }
+  #title{
+    font-family:"Roboto", sans-serif;
+    color:#755716;
+  }
+  #description{
+    font-family:"Lato", sans-serif;
+    font-size:18px;
+    color:#85692e;
+  }
+  .survey{
+    background:#2e456b;
+    color:#c9a42a;
+    width: 80%;
+    padding: 20px;
+    margin:auto;
+    text-align:justify;
+    border-radius:5px;
+  }
+  #name{
+    width:80%;
+    font-size:15px;
+    border-radius:5px;
+  }
+  #email{
+    width:80%;
+    font-size:15px;
+    border-radius:5px;
+  }
+  #number{
+    width:80%;
+    font-size:15px;
+    border-radius:5px;
+  }
+  #dropdown{
+    width:80%;
+    font-size:15px;
+    border-radius:5px;
+  }
+  
+  #comments{
+    width:80%;
+    height:50px;
+    font-size:15px;
+    border-radius:5px;
+    padding:5px;
+    
+  }
+  #submit{
+    background:#6ff233;
+    width:81%;
+    font-size:15px;
+    border-radius:5px; 
+  }
+  
