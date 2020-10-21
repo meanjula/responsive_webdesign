@@ -91,7 +91,7 @@ ul {
 .button{
   display:block;
   margin:auto;
-  padding-bottom;25px;
+  padding-bottom:25px;
   line-height:25px;
   font-size:25px;
   background:#ff9900;
@@ -171,6 +171,6 @@ ul {
 }
 
 .button:hover{
-  transform:scale(2:5);
+  transform:scale(2.5);
   border:5px solid black;
 }
