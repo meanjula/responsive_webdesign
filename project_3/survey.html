@@ -14,11 +14,11 @@
     <div class="survey">
       <form id="survey-form" action="https://www.freecodecamp.com/email-submit)">
         <label id="name-label" for="name">Name</label><br>
-      <input id="name" type="text" placeholder="Your full name" name="name" required=""><br>
-      <label for="email" id="email-label">E-mail</label><br>
-      <input id="email" type="email" placeholder="Enter your email" name="email" required=""><br>
-      <label for="number" id="number-label">Age(optional)</label><br>
-         <input id="number" type="number" placeholder="Age" name="number" min="16" max="90">
+       <input id="name" type="text" placeholder="Your full name" name="name" required=""><br>
+       <label for="email" id="email-label">E-mail</label><br>
+       <input id="email" type="email" placeholder="Enter your email" name="email" required=""><br>
+       <label for="number" id="number-label">Age(optional)</label><br>
+       <input id="number" type="number" placeholder="Age" name="number" min="16" max="90">
       <p>what is your current position?</p>
       <select id="dropdown" name="position">
         <option value="" disabled selected >select an option</option>
@@ -28,19 +28,31 @@
         <option value="others">Others</option>   
       </select>            
       <p>Would you recommend our servics to your friends?</p>
-      <label for="definitely">                            <input id="definitely" type="radio" value="definitely" name="recommend">Definitely </label><br>
+      <label for="definitely">                            
+        <input id="definitely" type="radio" value="definitely" name="recommend">Definitely </label><br>
       <label for="maybe">
           <input id="maybe" type="radio" value="maybe" name="recommend">Maybe </label><br>
       <label for="not sure">
-           <input id="not sure" type="radio" value="not sure" name="recommend">Not sure </label>
+          <input id="not sure" type="radio" value="not sure" name="recommend">Not sure </label>
       <p>What you want to see improved?</p>
-      <label for="front end-projects"><input id="front end-projects" type="checkbox" name="front end-projects" value="front end-projects">Front end-projects</label><br>
-      <label for="back end-projects"><input id="back end-projects" type="checkbox" name="back end-projects" value="back end-projects">Back end-projects</label><br>
+      <label for="front end-projects">
+        <input id="front end-projects" type="checkbox" name="front end-projects" value="front end-projects">Front end-projects
+      </label><br>
+      <label for="back end-projects">
+        <input id="back end-projects" type="checkbox" name="back end-projects" value="back end-projects">Back end-projects
+      </label><br>
       <label for="data visualization"><input id="data visualization" type="checkbox" name="data visualization" value="data visualization">Data visualization</label><br>
-      <label for="challanges"><input id="challanges" type="checkbox" name="challanges" value="challanges">challanges</label><br>
-      <label for="open source community"><input id="open source community" type="checkbox" name="open source community" value="open source community">Open source community</label><br>
-        <label for="forum"><input id="forum" type="checkbox" name="forum" value="Forum">forum</label><br>
-        <label for="additional courses"><input id="additional courses" type="checkbox" name="additional courses" value="additional courses">Additional courses</label><br>
+      <label for="challanges">
+        <input id="challanges" type="checkbox" name="challanges" value="challanges">challanges
+      </label><br>
+      <label for="open source community">
+        <input id="open source community" type="checkbox" name="open source community" value="open source community">Open source community
+      </label><br>
+        <label for="forum">
+          <input id="forum" type="checkbox" name="forum" value="Forum">forum</label><br>
+        <label for="additional courses">
+          <input id="additional courses" type="checkbox" name="additional courses" value="additional courses">Additional courses
+        </label><br>
         <p class="suggestions">Any comments or suggestions?</p>  
       <textarea id="comments">additional comments</textarea><br>
       <input id="submit" type="submit" value="submit">
